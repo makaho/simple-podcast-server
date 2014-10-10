@@ -1,0 +1,11 @@
+AuthUserFile insertpasswdfile.here
+AuthName "Podcast managment authentication required"
+AuthType Basic
+
+Require valid-user
+
+<Files "feed.php">
+	Allow from all
+	Satisfy Any
+</Files>
+

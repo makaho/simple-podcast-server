@@ -1,0 +1,6 @@
+.DS_Store
+media/*
+tmp/*
+!media/.htaccess
+!tmp/.htaccess
+
