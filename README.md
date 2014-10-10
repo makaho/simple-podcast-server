@@ -13,7 +13,10 @@ Features
 
 Installation
 ------------
-
+- Copy files to server.
+- Change .htaccess in root directory to point to your password file / create one.
+- Change config.php and enter your values, the especially the URL has to be updated to your value, otherwise the links in the feeds and the admin interface won't work.
+- Check your php settings and increase the maximum file size for uploads when needed. You might also need to update the maximum execution for scripts, if the analysis of the files takes too long.
 
 ToDos
 -----
