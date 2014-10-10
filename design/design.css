@@ -1,0 +1,201 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 100%;
+}
+
+#content {
+	max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.entrybox {
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+	padding: 10px;
+	min-height: 150px;
+	margin-bottom: 10px;
+}
+
+img.podcastentry {
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+
+div.buttons {
+	float: right;
+	padding-left: 10px;
+	height: 150px;
+}
+
+h2.title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.description {
+	padding-top: 10px;
+
+}
+
+div.subtitle {
+	padding-top: 0px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: hidden;
+	color: #AAAAAA;
+}
+
+#uploadbox {
+    margin-left: auto;
+    margin-right: auto;
+	//min-width: 500px;
+	max-width: 750px;
+	margin-bottom: 15px;
+}
+
+/* for the error box */
+#errorbox {
+	border: 2px solid #FF8888;
+	border-radius: 10px;
+	background-color: #FFCCCC;
+	padding: 5px;
+}
+
+.error-box-close {
+	float: right;
+	color: gray;
+	font-size: 12pt;
+	padding-left: 10px;
+}
+
+.error-box-symbol {
+	color: red;
+	font-size: 24pt;
+	padding-right: 10px;
+}
+#error-text {
+	color: black;
+    font-size: initial;
+}
+
+/* for html5 drag and drop and upload*/
+#holder { border: 10px dashed #ccc; width: 150px; min-height: 150px; margin: 0px auto; float: right; padding-left: 10px;}
+#holder.hover { border: 10px dashed #000; }
+#holder.unhover { border: 10px dashed #ccc; }
+progress { width: 100%; margin-top: 10px; margin-bottom: 0px;}
+
+.hidden {display: none;}
+
+.bigicon {
+	text-decoration: none;
+	color: black;
+	font-size: 18pt;
+}
+
+
+/* for icon font */
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot?9nqi0v');
+	src:url('icomoon.eot?#iefix9nqi0v') format('embedded-opentype'),
+		url('icomoon.woff?9nqi0v') format('woff'),
+		url('icomoon.ttf?9nqi0v') format('truetype'),
+		url('icomoon.svg?9nqi0v#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-download:before {
+	content: "\e600";
+}
+.icon-upload:before {
+	content: "\e601";
+}
+.icon-cogs:before {
+	content: "\e602";
+}
+.icon-remove:before {
+	content: "\e603";
+}
+.icon-remove2:before {
+	content: "\e604";
+}
+.icon-menu:before {
+	content: "\e611";
+}
+.icon-link:before {
+	content: "\e605";
+}
+.icon-attachment:before {
+	content: "\e606";
+}
+.icon-info:before {
+	content: "\e607";
+}
+.icon-info2:before {
+	content: "\e608";
+}
+.icon-blocked:before {
+	content: "\e609";
+}
+.icon-cancel-circle:before {
+	content: "\e60a";
+}
+.icon-checkmark-circle:before {
+	content: "\e60b";
+}
+.icon-spam:before {
+	content: "\e60c";
+}
+.icon-close:before {
+	content: "\e60d";
+}
+.icon-checkmark:before {
+	content: "\e60e";
+}
+.icon-paragraph-justify:before {
+	content: "\e612";
+}
+.icon-feed:before {
+	content: "\e613";
+}
+.icon-feed2:before {
+	content: "\e614";
+}
+.icon-feed3:before {
+	content: "\e615";
+}
+.icon-github:before {
+	content: "\e616";
+}
+.icon-github2:before {
+	content: "\e617";
+}
+.icon-github3:before {
+	content: "\e618";
+}
+.icon-html5:before {
+	content: "\e60f";
+}
+.icon-html52:before {
+	content: "\e610";
+}
