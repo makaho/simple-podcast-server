@@ -77,7 +77,10 @@ $result = $stmt->execute();
 		echo "</itunes:duration>";
 		echo "<itunes:image href=\"";
 		echo $podcast_baseurl.$res["coverlink"];
-		echo "\"/>";
+		echo "\"/>\n";
+		echo "<pubDate>";
+		echo date(DATE_RFC2822, $res["timeadded"]);
+		echo "</pubDate>\n";
 		 
 	echo "</item>\n";
 }
